@@ -34,7 +34,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
 }
 
-if(isset(($_GET['id']))){
+if(isset($_GET['id'])){
        
     $id = $_GET['id'];
         $cmd = "DELETE from ab_item WHERE id_item=$id";

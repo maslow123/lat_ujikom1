@@ -22,6 +22,15 @@ if (isset($_SESSION["xusername"])) {
             case 'edit-siswa':
                 include 'views/body/siswa/ubah.php';
                 break;
+            case 'matpel':
+                include 'views/body/matpel/index.php';
+                break;
+            case 'tambah-matpel':
+                include 'views/body/matpel/tambah.php';
+                break;
+            case 'edit-matpel':
+                include 'views/body/matpel/ubah.php';
+                break;
             case 'item':
                 include 'views/body/item/index.php';
                 break;
